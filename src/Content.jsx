@@ -1,17 +1,13 @@
 import React from "react";
 import { openGmail } from "./Header";
-import image from "/home/rog/portfolio/portfolio/src/assets/Daco_4263064.png";
+//import image from "/home/rog/portfolio/portfolio/src/assets/Daco_4263064.png";
 
 
 export const Content = () => {
   return (
     <div >
       <div className="text-center mt-48">
-      <img
-  className="w-40 h-40 mx-auto my-auto rounded-full border-4 border-slate-50 object-cover"
-  src={image}
-  alt="profile"
-/>
+      
         
 
         <h1 className="text-center mt-6 cursor-pointer hover:-translate-y-1 hover:scale-110 transition ease-in-out hover:text-transparent bg-clip-text hover:bg-gradient-to-r to-orange-400 from-purple-500 tracking-tighter text-7xl text-white max-w-[600px] mx-auto font-bold">
