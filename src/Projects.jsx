@@ -6,12 +6,12 @@ import ietec from "./assets/image4.png";
 
 export const Projects = () => {
   return (
-    <div id="projects" className="mt-10 items-center grid grid-cols-2 gap-4">
+    <div id="projects" className="mt-10  flex flex-row flex-wrap justify-center gap-4">
       <div>
         <a
           href="https://lms-app-4x6h.onrender.com/index"
           target="_blank"
-          className="flex flex-col items-center border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl"
+          className="flex hover:scale-105  flex-col items-center border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl"
         >
           <img
             className="object-cover rounded-lg w-1/2"
@@ -39,7 +39,7 @@ export const Projects = () => {
         <a
           href="https://sports-app-arunkabish.netlify.app/scorepanel"
           target="_blank"
-          className="flex flex-col items-center border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl"
+          className="flex hover:scale-105 flex-col items-center border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl"
         >
           <img
             className="object-cover rounded-lg w-1/2"
@@ -66,7 +66,7 @@ export const Projects = () => {
         <a
           href="https://wd201-unxw.onrender.com/"
           target="_blank"
-          className="flex flex-col items-center border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl"
+          className="flex hover:scale-105 flex-col items-center border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl"
         >
           <img
             className="object-cover rounded-lg w-1/2"
@@ -93,7 +93,7 @@ export const Projects = () => {
         <a
           href="https://arunkabish1.github.io/ietec/Home"
           target="_blank"
-          className="flex flex-col items-center border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl"
+          className="flex hover:scale-105 flex-col items-center border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl"
         >
           <img
             className="object-cover rounded-lg w-1/2"
