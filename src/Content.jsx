@@ -5,21 +5,21 @@ import developer from "./assets/developer.png";
 
 export const Content = () => {
   return (
-    <div>
-      <div className="text-center p-10">
-        <img src={fotor} alt="Logo" className="h-auto w-1/4 mx-auto" />
-        <h1 className="text-center mt-6 cursor-pointer hover:-translate-y-1 hover:scale-110 transition ease-in-out hover:text-transparent bg-clip-text hover:bg-gradient-to-r to-orange-400 from-purple-500 tracking-tighter text-7xl text-white max-w-[600px] mx-auto font-bold">
+    <div className="">
+      <div className="mt-24">
+        <img src={fotor} alt="Logo" className="h-auto w-1/4 mx-auto hover:scale-105 duration-150 transform" />
+        <h1 className="text-center mt-6 cursor-pointer hover:-translate-y-1 hover:scale-110 transition ease-in-out hover:text-transparent bg-clip-text hover:bg-gradient-to-r to-orange-400 from-purple-500 tracking-tighter text-4xl lg:text-7xl text-white max-w-[600px] mx-auto font-bold">
           ARUNKABISH
         </h1>
-        <h3 className="text-center mt-2 font-bold  bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text text-2xl hover:animate-shake animate-once">
+        <h3 className=" font-bold  bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-center lg:text-3xl text-transparent bg-clip-text">
           CODER WITH PASSION
         </h3>
-        <p className="text-center pt-4 font-medium">
+        <p className="text-center p-2 pt-4 font-medium">
           Passionate Software Engineer with a focus on React WebApp development,
           <br />
           dedicated to crafting elegant and user-friendly mobile applications.
         </p>
-        <span className="flex justify-center gap-9 mt-4">
+        <span className="flex justify-center gap-9 mt-2">
           <a
             className="hover:text-blue-600"
             aria-label="linkedin"
@@ -70,7 +70,7 @@ export const Content = () => {
           </a>
         </span>
       </div>
-      <div className="flex justify-center gap-9 items-center   ">
+      <div className="flex mt-8 lg:mt-20 flex-col gap-9 items-center lg:flex-row lg:justify-center ">
           <p className="text-center text-2xl font-bold">Tech Stack</p>
           <img className="w-36 cursor-pointer hover:scale-110 transition ease-in-out" src="https://skillicons.dev/icons?i=html,css" alt="" />
           <img className="w-36 cursor-pointer hover:scale-110 transition ease-in-out" src="https://skillicons.dev/icons?i=js,ts" alt="" />
@@ -79,8 +79,8 @@ export const Content = () => {
           <img className="w-36 cursor-pointer hover:scale-110 transition ease-in-out" src="https://skillicons.dev/icons?i=github,netlify" alt="" />
       </div>
 
-      <div className=" justify-center flex container h-full w-3/4 mx-auto rounded-3xl text-center mt-48">
-      <img src={developer} className="w-1/3 rounded-3xl"  alt="img" />
+      <div className="items-center flex-col gap-4 lg:justify-center lg:flex-row flex container h-full w-3/4 mx-auto rounded-3xl text-center mt-48">
+      <img src={developer} className="lg:w-1/3 rounded-3xl"  alt="img" />
 <div>
 <h1 className="text-5xl font-bold" id="about">ABOUT MYSELF</h1>
         <div className="max-w-[1000px] mx-auto text-center mt-9 font-medium">
@@ -107,7 +107,7 @@ export const Content = () => {
         >
           EXPLORE NOW
         </h4>
-        <p className="max-w-[1000px] mx-auto text-center mt-9 font-medium">
+        <p className="lg:max-w-[1000px] max-w-96 mx-auto text-center mt-9 font-medium">
           Here are some of my projects that I have worked on. If you have a
           project in mind, want to discuss a potential collaboration, or just
           chat about the latest developments in the tech world, feel free to

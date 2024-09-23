@@ -6,7 +6,7 @@ body {
 
 .header-container {
   position: fixed;
-  width: 96%;
+  width: 100%;
   backdrop-filter: blur(10px); /* Adjust the blur value as needed */
   background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
   z-index: 1000;
@@ -22,7 +22,7 @@ body {
 .App {
   background-color: black;
   color: white;
-  padding: 2rem;
+  /* padding: 2rem; */
   overflow: hidden; 
   background-image: url('/home/rog/portfolio/portfolio/src/assets/opoy7.jpg');
   background-size: cover;
