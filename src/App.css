@@ -1,8 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0; /* Remove default body margin */
+  scroll-behavior: smooth;
 }
 /* Header.css */
+
 
 .header-container {
   position: fixed;

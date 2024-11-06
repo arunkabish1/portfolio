@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <div
-      style={{ position: "fixed", width: "100%" }}
+      style={{ position: "fixed", width: "100%",scrollBehavior:"smooth", }}
       className="header-container"
     >
       <nav className="items-center flex justify-between py-3 lg:justify-between">
@@ -26,7 +26,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <div className="items-center lg:hidden">
-          <button
+          <button data-tooltip-target="tooltip-default"
             onClick={toggleMenu}
             className="text-gray-800 hover:text-blue-600 focus:outline-none"
           >
@@ -52,33 +52,37 @@ const Header = () => {
     menuOpen ? "flex" : "hidden"
   } lg:flex`}
 >
-          <button
+          <button data-tooltip-target="tooltip-default"
             className=" lg:ml-4 lg:hover:text-blue-600 lg:rounded-2xl lg:p-1 lg:font-bold"
             id=""
             href="#home"
           >
             Home
           </button>
-          <a
+          <a data-tooltip-target="tooltip-default"
             className="ml-4 hover:text-blue-600 rounded-2xl p-1 font-bold"
             href="#projects"
             id=""
           >
             Projects
           </a>
-          <a
+          <a data-tooltip-target="tooltip-default"
             className="ml-4 hover:text-blue-600 rounded-2xl p-1 font-bold"
             href="#about"
           >
             About
-          </a>
-          <button
+          </a> 
+          <button data-tooltip-target="tooltip-default"
             className="ml-4 hover:text-blue-600 rounded-2xl p-1 font-bold"
             id=""
             onClick={openGmail}
           >
             Contact
           </button>
+          <div id="tooltip-default" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+    Tooltip content
+    <div class="tooltip-arrow" data-popper-arrow></div>
+</div>
         </div>
       </nav>
     </div>
