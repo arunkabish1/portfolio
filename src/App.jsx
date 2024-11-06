@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App scroll-smooth">
+    <div className="App bg-slate-950 scroll-smooth">
       <Header />
       <Content data-aos="fade-up" />
       <Expirience data-aos="fade-right" />

@@ -26,7 +26,7 @@ export const Content = () => {
             aria-label="linkedin"
             rel="noreferrer"
             target="_blank"
-            href="https://www.linkedin.com/in/arunkabish/"
+            href="https://www.linkedin.com/in/arunjayaraman1/"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
