@@ -114,7 +114,6 @@ const Experience = () => {
         iconBg: "#E6DEDD",
         date: "Jan 2023 - Present",
         points: [
-          "Few Days to Go for Course Completion !",
           "Developing and maintaining web applications from scratch using company production and other related technologies.",
         ],
          image: wd401
