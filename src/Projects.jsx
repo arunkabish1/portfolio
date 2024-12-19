@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import LMS from "./assets/image.png";
 import node from "./assets/image2.png";
 import sp from "./assets/image3.png";
-import unstop from "./assests/unstop.png";
+import unstop from "./assets/unstop.png";
 import spp from "./assets/Screenshot (7).png";
 import sppp from "./assets/download.png";
 import ietec from "./assets/image4.png";
